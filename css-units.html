@@ -6,11 +6,10 @@
     <title>CSS Units</title>
     <!-- Style -->
     <style>
-
-        *{
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
       /* rem */
       /* html{
             font-size: 10px;
@@ -23,7 +22,7 @@
 
       /* em */
 
-      html{
+      /* html{
         font-size: 16px;
       }
       .parent{
@@ -36,18 +35,30 @@
       .child{
 
         background-color: green;
-        font-size: 2em;
+        font-size: 2rem;
 
-      }
+      } */
 
-      p{
+      /* p{
         background-color: yellow;
         font-size: 2em;
-      }
+      } */
 
-      span{
+      /* span{
         background-color: blue;
         font-size: 2em;
+      } */
+      /* View Width */
+      p {
+        border: 2px solid red;
+        background-color: rebeccapurple;
+        width: 100vw;
+      }
+
+      .container {
+        width: 400px;
+        height: 400px;
+        background-color: green;
       }
     </style>
   </head>
@@ -110,7 +121,8 @@
     </div> -->
 
     <!-- em -->
-    <div class="parent">
+    <!-- <div class="parent">
+
       <div class="child">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
         alias?
@@ -120,6 +132,25 @@
             <span>This is span</span>
         </p>
       </div>
+    </div> -->
+
+    <!-- View width -->
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium
+      excepturi quidem eius dolorum debitis maiores officiis reiciendis in at
+      aperiam tempore magnam ea minima quae impedit laboriosam cumque deserunt
+      consectetur blanditiis mollitia, aut exercitationem? Architecto natus
+      nesciunt maxime.
+    </p> -->
+
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        laudantium excepturi quidem eius dolorum debitis maiores officiis
+        reiciendis in at aperiam tempore magnam ea minima quae impedit
+        laboriosam cumque deserunt consectetur blanditiis mollitia, aut
+        exercitationem? Architecto natus nesciunt maxime.
+      </p>
     </div>
   </body>
 </html>
