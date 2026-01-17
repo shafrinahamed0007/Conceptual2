@@ -6,18 +6,54 @@
     <title>CSS Units</title>
     <!-- Style -->
     <style>
-        html{
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      /* rem */
+      /* html{
             font-size: 10px;
         }
       div {
         border: 2px solid red;
         padding: 2.5rem;
         font-size: 6rem;
+      } */
+
+      /* em */
+
+      html{
+        font-size: 16px;
+      }
+      .parent{
+        background-color: red;
+        height: 300px;
+        font-size: 10px;
+
+      }
+
+      .child{
+
+        background-color: green;
+        font-size: 2em;
+
+      }
+
+      p{
+        background-color: yellow;
+        font-size: 2em;
+      }
+
+      span{
+        background-color: blue;
+        font-size: 2em;
       }
     </style>
   </head>
   <body>
-    <div>
+    <!-- rem -->
+    <!-- <div>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quam
       est? Voluptates facilis, corrupti eos neque, quibusdam culpa placeat aut
       atque tempore nobis voluptate. Neque praesentium suscipit debitis, alias
@@ -71,6 +107,19 @@
       necessitatibus blanditiis, labore ex ea excepturi magnam dolorem possimus.
       Debitis delectus, praesentium fuga suscipit at esse ullam explicabo,
       aspernatur iste reiciendis magni vel dolorem repudiandae voluptatum.
+    </div> -->
+
+    <!-- em -->
+    <div class="parent">
+      <div class="child">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
+        alias?
+        <p>
+            This is my paragraph
+
+            <span>This is span</span>
+        </p>
+      </div>
     </div>
   </body>
 </html>
